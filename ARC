@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ARC Alliance</title>
+  <style>
+    /* CSS Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #1E3A5F;
+      color: #FFFFFF;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 40px;
+    }
+
+    .team-header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .team-header h1 {
+      color: #e74c3c;
+    }
+
+    .team-header p {
+      color: #FFFFFF;
+    }
+
+    .team-member {
+      display: flex;
+      align-items: center;
+      margin-bottom: 30px;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .team-member-image {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin-right: 20px;
+    }
+
+    .team-member-info {
+      flex-grow: 1;
+    }
+
+    .team-member-name {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 5px;
+      color: #e74c3c;
+    }
+
+    .team-member-rank {
+      font-size: 14px;
+      color: #888;
+    }
+
+    .team-member-description {
+      font-size: 16px;
+      color: #555;
+    }
+
+    .cta-button {
+      display: block;
+      margin-top: 40px;
+      background-color: #e74c3c;
+      color: #fff;
+      text-decoration: none;
+      padding: 12px 24px;
+      border-radius: 4px;
+      text-align: center;
+    }
+
+    .cta-button:hover {
+      background-color: #c0392b;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="team-header">
+      <h1>ARC Alliance</h1>
+      <p>The #5 Alliance in the State</p>
+      <p>Known for its innovative strategies, strong player base, and unwavering commitment to state victory.</p>
+    </div>
+
+    <div class="team-members">
+      <div class="team-member">
+        <img src="fnx_leader.jpg" alt="Leader" class="team-member-image">
+        <div class="team-member-info">
+          <div class="team-member-name">Blitz</div>
+          <div class="team-member-rank">R5 - Leader</div>
+          <div class="team-member-description">Leads the alliance with a strategic vision and decisive decision-making.</div>
+        </div>
+      </div>
+
+      <div class="team-member">
+        <img src="fnx_member1.jpg" alt="Member 1" class="team-member-image">
+        <div class="team-member-info">
+          <div class="team-member-name">JayMo</div>
+          <div class="team-member-rank">R4 - Senior Member</div>
+          <div class="team-member-description">Responsible for coordinating alliance-wide operations and logistics.</div>
+        </div>
+      </div>
+
+      <div class="team-member">
+        <img src="fnx_member2.jpg" alt="Member 2" class="team-member-image">
+        <div class="team-member-info">
+          <div class="team-member-name">Michael Johnson</div>
+          <div class="team-member-rank">R4 - Senior Member</div>
+          <div class="team-member-description">Leads the alliance's research and development efforts.</div>
+        </div>
+      </div>
+
+      <div class="team-member">
+        <img src="fnx_member3.jpg" alt="Member 3" class="team-member-image">
+        <div class="team-member-info">
+          <div class="team-member-name">Emily Davis</div>
+          <div class="team-member-rank">R4 - Senior Member</div>
+          <div class="team-member-description">Manages the alliance's community engagement and support programs.</div>
+        </div>
+      </div>
+
+      <div class="team-member">
+        <img src="fnx_member4.jpg" alt="Member 4" class="team-member-image">
+        <div class="team-member-info">
+          <div class="team-member-name">David Lee</div>
+          <div class="team-member-rank">R4 - Senior Member</div>
+          <div class="team-member-description">Assists with the alliance's operational and administrative tasks.</div>
+        </div>
+      </div>
+    </div>
+
+    <a href="#" class="cta-button">Join the FNX Alliance</a>
+  </div>
+</body>
+</html>
