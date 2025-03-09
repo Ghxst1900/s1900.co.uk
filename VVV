@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VVV Alliance</title>
+  <style>
+    /* CSS Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #1E3A5F;
+      color: #333;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 40px;
+    }
+
+    .team-header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .team-header h1 {
+      color: #9b59b6;
+    }
+
+    .team-header p {
+      color: #FFFFFF;
+    }
+
+    .team-member {
+      display: flex;
+      align-items: center;
+      margin-bottom: 30px;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .team-member-image {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin-right: 20px;
+    }
+
+    .team-member-info {
+      flex-grow: 1;
+    }
+
+    .team-member-name {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 5px;
+      color: #9b59b6;
+    }
+
+    .team-member-rank {
+      font-size: 14px;
+      color: #888;
+    }
+
+    .team-member-description {
+      font-size: 16px;
+      color: #555;
+    }
+
+    .cta-button {
+      display: block;
+      margin-top: 40px;
+      background-color: #9b59b6;
+      color: #fff;
+      text-decoration: none;
+      padding: 12px 24px;
+      border-radius: 4px;
+      text-align: center;
+    }
+
+    .cta-button:hover {
+      background-color: #8e44ad;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="team-header">
+      <h1>VVV Alliance</h1>
+      <p>The #3 Alliance in the State</p>
+      <p>Known for its innovative tactics, strong community, and unwavering determination.</p>
+    </div>
+
+    <div class="team-members">
+      <div class="team-member">
+        <img src="vvv_leader.jpg" alt="Leader" class="team-member-image">
+        <div class="team-member-info">
+          <div class="team-member-name">Emilia Rossi</div>
+          <div class="team-member-rank">R4 - Leader</div>
+          <div class="team-member-description">Leads the alliance with a strategic mind and a focus on community building.</div>
+        </div>
+      </div>
+
+      <div class="team-member">
+        <img src="vvv_member1.jpg" alt="Member 1" class="team-member-image">
+        <div class="team-member-info">
+          <div class="team-member-name">Luca Moretti</div>
+          <div class="team-member-rank">R3 - Senior Member</div>
+          <div class="team-member-description">Responsible for coordinating the alliance's tactical operations.</div>
+        </div>
+      </div>
+
+      <div class="team-member">
+        <img src="vvv_member2.jpg" alt="Member 2" class="team-member-image">
+        <div class="team-member-info">
+          <div class="team-member-name">Sophia Guzman</div>
+          <div class="team-member-rank">R3 - Senior Member</div>
+          <div class="team-member-description">Leads the alliance's content creation and marketing efforts.</div>
+        </div>
+      </div>
+
+      <div class="team-member">
+        <img src="vvv_member3.jpg" alt="Member 3" class="team-member-image">
+        <div class="team-member-info">
+          <div class="team-member-name">Miguel Hernandez</div>
+          <div class="team-member-rank">R3 - Senior Member</div>
+          <div class="team-member-description">Manages the alliance's recruitment and onboarding processes.</div>
+        </div>
+      </div>
+
+      <div class="team-member">
+        <img src="vvv_member4.jpg" alt="Member 4" class="team-member-image">
+        <div class="team-member-info">
+          <div class="team-member-name">Olivia Sanchez</div>
+          <div class="team-member-rank">R3 - Senior Member</div>
+          <div class="team-member-description">Assists with the alliance's operational and administrative tasks.</div>
+        </div>
+      </div>
+    </div>
+
+    <a href="#" class="cta-button">Join the VVV Alliance</a>
+    <a href="https://s1900.w3spaces.com" class="cta-button">Home</a>
+  </div>
+</body>
+</html>
