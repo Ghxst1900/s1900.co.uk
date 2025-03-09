@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FWF Alliance</title>
+  <style>
+    /* CSS Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #1E3A5F;
+      color: #FFFFFF;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 40px;
+    }
+
+    .team-header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .team-header h1 {
+      color: #007bff;
+    }
+
+    .team-header p {
+      color: #FFFFFF;
+    }
+
+    .team-member {
+      display: flex;
+      align-items: center;
+      margin-bottom: 30px;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .team-member-image {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin-right: 20px;
+    }
+
+    .team-member-info {
+      flex-grow: 1;
+    }
+
+    .team-member-name {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 5px;
+      color: #007bff;
+    }
+
+    .team-member-rank {
+      font-size: 14px;
+      color: #888;
+    }
+
+    .team-member-description {
+      font-size: 16px;
+      color: #555;
+    }
+
+    .cta-button {
+      display: block;
+      margin-top: 40px;
+      background-color: #007bff;
+      color: #fff;
+      text-decoration: none;
+      padding: 12px 24px;
+      border-radius: 4px;
+      text-align: center;
+    }
+
+    .cta-button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="team-header">
+      <h1>FWF Alliance</h1>
+      <p>The #2 Alliance in the State</p>
+      <p>Great communication, amazing tips for free-to-play and low spenders, and an incredible atmosphere with wonderful people.</p>
+    </div>
+
+    <div class="team-members">
+      <div class="team-member">
+        <img src="Bungholio.png" alt="Leader" class="team-member-image">
+        <div class="team-member-info">
+          <div class="team-member-name">Bungholio</div>
+          <div class="team-member-rank">R5 - Leader</div>
+          <div class="team-member-description">Responsible for strategic planning and overall direction of the alliance.</div>
+        </div>
+      </div>
+
+      <div class="team-member">
+        <img src="Ghost.png" alt="Member 1" class="team-member-image">
+        <div class="team-member-info">
+          <div class="team-member-name">ᴳʰᵒˢᵗ</div>
+          <div class="team-member-rank">R4 - Senior Member</div>
+          <div class="team-member-description">Coordinates and oversees the execution of key initiatives as well as deplomacy.</div>
+        </div>
+      </div>
+
+      <div class="team-member">
+        <img src="Quinnsanity.png" alt="Member 2" class="team-member-image">
+        <div class="team-member-info">
+          <div class="team-member-name">Quinnsanity</div>
+          <div class="team-member-rank">R4 - Senior Member</div>
+          <div class="team-member-description">Responsible for the development within the alliance.</div>
+        </div>
+      </div>
+
+      <div class="team-member">
+        <img src="Angelita_ANC_.png" alt="Member 3" class="team-member-image">
+        <div class="team-member-info">
+          <div class="team-member-name">Angelita</div>
+          <div class="team-member-rank">R4 - Senior Member</div>
+          <div class="team-member-description">Mother of the alliance, keeps everyone in check.</div>
+        </div>
+      </div>
+
+      <div class="team-member">
+        <img src="Miss_boo_.png" alt="Member 4" class="team-member-image">
+        <div class="team-member-info">
+          <div class="team-member-name">Miss boo</div>
+          <div class="team-member-rank">R4 - Senior Member</div>
+          <div class="team-member-description">Supports the team ensuring task deadlines are met.</div>
+        </div>
+      </div>
+    </div>
+
+<div class="team-member">
+        <img src="Killa.png" alt="Member 4" class="team-member-image">
+        <div class="team-member-info">
+          <div class="team-member-name">Killa</div>
+          <div class="team-member-rank">R4 - Senior Member</div>
+          <div class="team-member-description">Assists with project management and administrative tasks.</div>
+        </div>
+      </div>
+    </div>
+
+    <a href="https://discord.gg/kBbpQNXP" class="cta-button">Join the FWF Alliance</a>
+    <a href="https://s1900.w3spaces.com" class="cta-button">Home</a>
+  </div>
+</body>
+</html>
