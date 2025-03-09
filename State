@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SEA - Supreme Elite Alliance</title>
+    <title>Whiteout Survival - State 1900</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #1E3A5F;
+            background-color: #1E3A5F; /* Deep icy blue */
             color: #FFFFFF;
             text-align: center;
             margin: 0;
@@ -19,7 +19,7 @@
             padding: 20px;
         }
         h1, h2 {
-            color: #A9CCE3;
+            color: #A9CCE3; /* Lighter blue for headings */
         }
         .section {
             background-color: rgba(255, 255, 255, 0.1);
@@ -28,7 +28,7 @@
             border-radius: 10px;
         }
         a {
-            color: #FFD700;
+            color: #FFD700; /* Gold for important links */
             text-decoration: none;
         }
         a:hover {
@@ -38,31 +38,49 @@
 </head>
 <body>
     <div class="container">
-        <h1>🔥 SEA - Supreme Elite Alliance</h1>
+        <h1>Welcome to Whiteout Survival - State 1900</h1>
         
         <div class="section">
-            <h2>Leadership</h2>
-            <p><strong>R5 - Leader:</strong> CommanderA</p>
-            <p><strong>R4 - Management:</strong> OfficerA1, OfficerA2, OfficerA3</p>
+            <h2>About Our State</h2>
+            <li><a href="Gallery.html">Gallery</a></li>
+            <p>State 1900 is a thriving community in Whiteout Survival, built on strategy, teamwork, and resilience. Join us as we conquer the frozen wastelands! Our state comes with a NAP agreement aswell as rotation of Forts, Strongholds and even the castle.</p>
         </div>
-        
+
         <div class="section">
-            <h2>Members</h2>
-            <p><strong>R3:</strong> Member1, Member2, Member3, Member4</p>
-            <p><strong>R2:</strong> Member5, Member6, Member7, Member8</p>
-            <p><strong>R1:</strong> Member9, Member10, Member11, Member12</p>
+            <h2>Top Alliances</h2>
+            <p>Click on an alliance to view its members:</p>
+            <ul>
+                <li><a href="SEA.html">🔥 SEA - One For All</a></li>
+                <li><a href="FWF.html">❄️ FWF - FireWolf</a></li>
+                <li><a href="VVV.html">⚔️ VVV - VeniVidiVici</a></li>
+                <li><a href="FNX.html">🏹 FNX - Fenix</a></li>
+                <li><a href="ARC.html">🗡️ ARC - ARCADIA</a></li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Leaderboards</h2>
+            <p>Check out the top player and alliance leading our state!</p>
+            <p>🔹 Most Powerful Player: <strong>[FNX]Pharaoh</strong></p>
+            <p>🔹 Strongest Alliance: <strong>SEA</strong></p>
         </div>
 
         <div class="section">
             <h2>Alliance Recruitment</h2>
-            <p>Looking to join? Contact our leader or management team:</p>
-            <p>Leader: CommanderA (Coords: X:123 Y:456)</p>
-            <p>R4 Contact: OfficerA1 (Coords: X:125 Y:460)</p>
+            <p>Looking for a strong alliance? Contact the leaders below for state transfers:</p>
+            <ul>
+                <li>🔥 SEA - Leader: G'captain (Coords: X:540 Y:479), R4 Contact: Joker (Coords: X:546 Y:483)</li>
+                <li>❄️ FWF - Leader: Bungholio (Coords: X:639 Y:468), R4 Contact: ᴳʰᵒˢᵗ (Coords: X:641 Y:465)</li>
+                <li>⚔️ VVV - Leader: _ X A M _ (Coords: X:744 Y:658), R4 Contact: HIGANBABA (Coords: X:761 Y:653)</li>
+                <li>🏹 FNX - Leader: TDC (Coords: X:495 Y:577), R4 Contact: Pharaoh (Coords: X:495 Y:579)</li>
+                <li>🗡️ ARC - Leader: Blitz (Coords: X:000 Y:000), R4 Contact: Jaymo (Coords: X:000 Y:000)</li>
+            </ul>
         </div>
-        
+
         <div class="section">
-            <h2>Back to Main Page</h2>
-            <p><a href="index.html">Return Home</a></p>
+            <h2>Contact us on Discord</h2>
+            <p>Stay connected with our community! Join our official state server:</p>
+            <p><a href="https://discord.gg/ZDjnrVPA">Join Our Discord</a></p>
         </div>
     </div>
 </body>
