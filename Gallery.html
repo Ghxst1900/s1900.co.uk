@@ -12,7 +12,7 @@
             padding: 0;
         }
 
-        .leaderboard-image {
+        .image {
             max-width: 30%;
             height: auto;
             margin: 10px;
@@ -20,7 +20,7 @@
             transition: transform 0.3s ease-in-out;
         }
 
-        .leaderboard-image.enlarged {
+        .image.enlarged {
             position: fixed;
             top: 50%;
             left: 50%;
@@ -59,14 +59,19 @@
 <body>
     <h1>Gallery</h1>
     <div>
-        <img class="leaderboard-image" src="Leaderboardoverview1.png" alt="Leaderboard Overview 1">
-        <img class="leaderboard-image" src="Leaderboardoverview2.png" alt="Leaderboard Overview 2">
+        <img class="image" src="Leaderboardoverview1.png" alt="Leaderboard Overview 1">
+        <img class="image" src="Leaderboardoverview2.png" alt="Leaderboard Overview 2">
+        <img class="image" src="SEA.png" alt="SEA">
+        <img class="image" src="FWF.png" alt="FWF">
+        <img class="image" src="VVV.png" alt="VVV">
+        <img class="image" src="FNX.png" alt="FNX">
+        <img class="image" src="ARC.png" alt="ARC">
     </div>
 
     <div class="overlay"></div>
 
     <script>
-        const images = document.querySelectorAll('.leaderboard-image');
+        const images = document.querySelectorAll('.image');
         const overlay = document.querySelector('.overlay');
 
         images.forEach(image => {
@@ -77,7 +82,7 @@
         });
 
         overlay.addEventListener('click', () => {
-            const enlargedImage = document.querySelector('.leaderboard-image.enlarged');
+            const enlargedImage = document.querySelector('.image.enlarged');
             if (enlargedImage) {
                 enlargedImage.classList.remove('enlarged');
                 overlay.style.display = 'none';
