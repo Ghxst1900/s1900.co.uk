@@ -1,0 +1,27 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1E3A5F; /* Deep icy blue */
+  color: #FFFFFF; /* Same text color as your home page */
+}
+
+/* Header styles */
+header {
+  background-color: #333; /* Same header background color as your home page */
+  color: #fff; /* Same header text color as your home page */
+  padding: 20px;
+}
+
+/* Link styles */
+a {
+  color: #007bff; /* Same link color as your home page */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Additional styles as needed */
